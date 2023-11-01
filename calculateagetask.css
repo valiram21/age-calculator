@@ -1,0 +1,28 @@
+section{
+    border: 1px solid black;
+    width: 500px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 40px 450px;
+    box-shadow: 3px 3px 20px 10px rgb(161,161,161);
+}
+h3{
+    color: black;
+    font-size: 15px;
+}
+input{
+    width: 230px;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid gainsboro;
+}
+button{
+    height: 25px;
+    width: 130px;
+    color: white;
+    border-radius: 5px;
+    background-color: blue;
+}
+h2{
+    font-size: 30px;
+}
