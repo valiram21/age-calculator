@@ -25,5 +25,11 @@ function calculate(){
 
       if(year>todayyear){
         document.getElementById("output").textContent=`Enter valid year`
-      }  
+      } 
+      if(month>todaymonth && year==todayyear){
+        document.getElementById("output").textContent=`enter valid month`
+      }
+      if(month==todaymonth && year==todayyear){
+        document.getElementById("output").textContent=`you entered present month`
+      }
 }
